@@ -40,9 +40,11 @@ int main() {
         // Cria threads CPU-bound
         pthread_create(&thread_cpu1, NULL, cpu_thread, (void*)1);
         pthread_create(&thread_cpu2, NULL, cpu_thread, (void*)2);
+        pthread_create(&thread_cpu2, NULL, cpu_thread, (void*)2);
         
         // Cria threads I/O-bound
         pthread_create(&thread_io1, NULL, io_thread, (void*)1);
+        pthread_create(&thread_io2, NULL, io_thread, (void*)2);
         pthread_create(&thread_io2, NULL, io_thread, (void*)2);
         
         // Espera todas as threads terminarem
