@@ -4,9 +4,13 @@
 
 
 ### 1 Análise de desempenho
-![top -H](imagens\top-h.png)  
-![top watch -n](imagens\watch-n.png) 
-![tempo de execução](imagens\teste1.png) 
+![top-H](imagens/top-h.png)  
+
+
+![top watch-n](imagens/watch-n.png) 
+
+
+![tempo de execução](imagens/teste1.png) 
 
 
 ### 2.2 Compilação do Programa
